@@ -1,0 +1,225 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #18191d;
+}
+.logo{
+  width: 100%;
+  margin-bottom: -4px;
+}
+.text{
+  width: 60%;
+  margin-top: 95px;
+  text-align: justify;
+  color: #fff;
+  font-size: 18px;
+  font-family: "roboto";
+  font-weight: 100;
+  line-height: 2.0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.a{
+  margin-top: 5px;
+  color: #75d6c3;
+  font-size: 20px;
+}
+#navbar{
+  position: sticky;
+  top: 0px;
+
+}
+#navbar li {
+  display: inline;
+}
+#navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: #75d6c3;
+}
+#navbar a {
+  color: #fff;
+  padding: 15px 0;
+  font-family: roboto;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  width: 24%;
+  height: 20px;
+}
+#navbar a:hover {
+  background-color: #3fc1b0;
+}
+#a{
+  margin-top: 125px;
+  height: 100vh;
+  width: 100%;
+  background-image: url(Elon1.jpg);
+  background-size: cover;
+  background-position-x: center;
+  display: table;
+  background-attachment: fixed;
+}
+#b{
+  margin-top: 125px;
+  height: 100vh;
+  width: 100%;
+  background-image: url(Elon2.jpg);
+  background-size: cover;
+  background-position-x: center;
+  display: table;
+  background-attachment: fixed;
+}
+.young:after{
+  content: " годы";
+  color: white;
+}
+.Elon:after{
+  content: "Musk";
+  color: white;
+}
+h1{
+  font-family: pt sans;
+  font-weight: 700;
+  font-size: 50px;
+  color: #75d6c3;
+  margin: 0px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+hr{
+  color: #fff;
+  margin-top: 75px;
+  width: 60.5%;
+  text-align: center;
+}
+.one{
+  background: #18191d;
+  font-family: pt sans;
+  font-weight: 700;
+  font-size: 22px;
+  margin-left: -38px;
+}
+.one a{
+  color: #18191d;
+}
+.one h2{
+  font-family: pt sans;
+  font-weight: 700;
+  font-size: 28px;
+  color: #75d6c3;
+  margin-top: -5px;
+}
+.one ul,
+.one li{
+  list-style-type: none;
+  text-align: center;
+}
+.one li{
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  overflow: hidden;
+}
+.one img{
+  max-width: 100%;
+}
+.two{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+  padding-top: 30%;
+  text-align: center;
+  vertical-align: bottom;
+  opacity: 0;
+  top: 100%;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+.one li:hover .two{
+  opacity: 1;
+  top: 0;
+}
+.q{
+  display: none;
+}
+.e{
+  display: none;
+}
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|Roboto:100,300,400,700&subset=cyrillic');
+@media screen and (max-width: 1000px){
+  .text{
+    width: 80%;
+  }
+  #a, #b{
+    height: 50vh;
+    background-attachment: scroll;
+  }
+  hr{
+    opacity: 0;
+  }
+  .one{
+    display: none;
+  }
+  .two{
+    display: none;
+  }
+}
+@media screen and (max-width: 800px){
+  #a, #b, #c, #d{
+    height: 52vh;
+}
+@media screen and (max-width: 600px){
+  .logo{
+    display: none;
+  }
+  .e{
+    display: block;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #75d6c3;
+    text-align: center;
+  }
+  .e1{
+    color: #fff;
+    font-family: "pt sans";
+    font-size: 30px;
+  }
+  #navbar{
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    background-color: #75d6c3;
+  }
+  #navbar a{
+    padding: 0;
+    height: auto;
+  }
+  .text{
+    width: 90%;
+  }
+  #a, #b{
+    height: 35vh;
+    background-attachment: scroll;
+  }
+  .q{
+    text-align: center;
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+  }
+  .q1{
+    display: none;
+  }
+}
